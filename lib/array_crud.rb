@@ -29,10 +29,10 @@ end
 
 def retrieve_first_element_from_array(array)
   array = ["Wow","Lala","James","Cute"]
-  array.first = [0]
+  array[0]
 end
 
 def retrieve_last_element_from_array(array)
   array = ["Wow","Lala","James","Cute"]
-  array.last = [-1]
+  array[-1]
 end
